@@ -19,8 +19,8 @@ class CreateKeywordResourceTable extends Migration
             $table->unsignedBigInteger('resource_id');
             $table->timestamps();
 
-            $table->foreign('keyword_id')->references('id')->on('keywords')->cascadeOnDelete();
-            $table->foreign('resource_id')->references('id')->on('resources')->cascadeOnDelete();
+            $table->foreign('keyword_id')->references('id')->on('keywords');
+            $table->foreign('resource_id')->references('id')->on('resources');
         });
     }
 

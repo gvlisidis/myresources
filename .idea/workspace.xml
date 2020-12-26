@@ -3,9 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="43b68077-0c9c-46c3-b302-37fab35b83f3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_23_213626_create_languages_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_23_213626_create_languages_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_23_213736_create_frameworks_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_23_213736_create_frameworks_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ResourceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ResourceController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_22_212801_create_resources_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_22_212801_create_resources_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_26_095735_create_language_resource_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_26_095735_create_language_resource_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_26_100048_create_keyword_resource_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_26_100048_create_keyword_resource_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_26_100216_create_framework_resource_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_26_100216_create_framework_resource_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/resources.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/resources.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +182,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608660656745</updated>
       <workItem from="1608660661765" duration="3322000" />
-      <workItem from="1608712907490" duration="4979000" />
+      <workItem from="1608712907490" duration="6429000" />
     </task>
     <servers />
   </component>

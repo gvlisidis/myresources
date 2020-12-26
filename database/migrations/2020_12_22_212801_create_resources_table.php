@@ -23,7 +23,7 @@ class CreateResourcesTable extends Migration
             $table->date('posted_on');
             $table->timestamps();
 
-            $table->foreign('type_id')->references('id')->on('types')->cascadeOnDelete();
+            $table->foreign('type_id')->references('id')->on('types');
 
         });
     }

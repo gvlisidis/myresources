@@ -19,8 +19,8 @@ class CreateFrameworkResourceTable extends Migration
             $table->unsignedBigInteger('resource_id');
             $table->timestamps();
 
-            $table->foreign('framework_id')->references('id')->on('frameworks')->cascadeOnDelete();
-            $table->foreign('resource_id')->references('id')->on('resources')->cascadeOnDelete();
+            $table->foreign('framework_id')->references('id')->on('frameworks');
+            $table->foreign('resource_id')->references('id')->on('resources');
         });
     }
 

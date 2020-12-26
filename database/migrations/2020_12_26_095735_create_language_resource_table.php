@@ -19,8 +19,8 @@ class CreateLanguageResourceTable extends Migration
             $table->unsignedBigInteger('resource_id');
             $table->timestamps();
 
-            $table->foreign('language_id')->references('id')->on('languages')->cascadeOnDelete();
-            $table->foreign('resource_id')->references('id')->on('resources')->cascadeOnDelete();
+            $table->foreign('language_id')->references('id')->on('languages');
+            $table->foreign('resource_id')->references('id')->on('resources');
 
         });
     }
